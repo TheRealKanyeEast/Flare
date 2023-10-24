@@ -6,7 +6,10 @@ extern Flare::Application* Flare::CreateApplication();
 
 int main(int argc, char** argv)
 {
-	printf("Flare Engine\n");
+	Flare::Log::Init();
+	FL_CORE_WARN("Logger Initialized");
+
+	FL_CLIENT_INFO("Flare Engine\n");
 	auto Env = Flare::CreateApplication();
 	Env->Run();
 	delete Env;

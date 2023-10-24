@@ -27,9 +27,15 @@
     <ClInclude Include="Source\Flare\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Flare\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Flare\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Flare\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
